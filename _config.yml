@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Code for YOKOHAMA
+url: "https://code4.yokohama/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -23,7 +23,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Asia/Tokyo
 
 permalink: pretty
 
