@@ -1,9 +1,13 @@
 left_links:
-  - name: Blog
-    link: /blog/
-  - name: About
+  - name: CODE FOR YOKOHAMAについて
     link: /about/
-  - name: Contact
+  - name: プロジェクト
+    link: /blog/
+  - name: レポート
+    link: /#
+  - name: オフィシャルグッズ
+    link: https://suzuri.jp/C4Y
+  - name: お問い合わせ
     link: /contact/
 right_links:
   - name:
