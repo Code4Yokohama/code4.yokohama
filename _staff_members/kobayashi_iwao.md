@@ -1,7 +1,6 @@
 ---
 name: Iwao Kobayashi
 image_path: /images/members/portlate.png
-metadata:
 position: Information Architect
 twitter_url: https://twitter.com/iwao
 facebook_url: https://www.facebook.com/iwao111
