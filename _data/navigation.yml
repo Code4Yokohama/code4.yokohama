@@ -6,5 +6,6 @@
   link: /#
 - name: オフィシャルグッズ
   link: https://suzuri.jp/C4Y
+  new_window: true
 - name: お問い合わせ
   link: /contact/
