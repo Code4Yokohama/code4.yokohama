@@ -1,6 +1,10 @@
-- name: Blog
-  link: /blog/
-- name: About
+- name: Code for YOKOHAMAについて
   link: /about/
-- name: Contact
+- name: プロジェクト
+  link: /blog/
+- name: レポート
+  link: /#
+- name: オフィシャルグッズ
+  link: https://suzuri.jp/C4Y
+- name: お問い合わせ
   link: /contact/
