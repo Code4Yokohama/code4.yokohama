@@ -4,5 +4,10 @@
 			<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
+	{% for tag in include.post.tags %}
+		<span class="blog-filter blog-tags">
+			<a href="{{ site.baseurl }}/tag/{{ tag | slugify }}/">{{ tag | capitalize }}</a>
+		</span>
+	{% endfor %}
 	<span class="post-date">{{ include.post.date | date: "%B %d, %Y" }}</span>
 </p>
