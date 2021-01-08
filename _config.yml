@@ -150,3 +150,6 @@ _comments:
 
 # ---- fixed github metadata authentication bug ----
 github : [metadata]
+
+exclude:
+  - _posts/2019-09-07-welcome-to-jekyll.markdown
