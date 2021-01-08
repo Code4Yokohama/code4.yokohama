@@ -152,4 +152,13 @@ _comments:
 github : [metadata]
 
 exclude:
-  - _posts/*-welcome-to-jekyll.markdown
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
