@@ -2,8 +2,8 @@
 # Site
 
 title: Code for YOKOHAMA
-url: "https://nichesuch.github.io/code4yokohama.github.io"
-baseurl:
+url: https://nichesuch.github.io/code4yokohama.github.io
+baseurl: 
 google_analytics_key: UA-59974413-3
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -40,6 +40,14 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 collections:
   staff_members:
@@ -151,15 +159,3 @@ _comments:
 
 # ---- fixed github metadata authentication bug ----
 github : [metadata]
-
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
