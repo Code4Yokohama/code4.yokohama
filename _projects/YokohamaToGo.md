@@ -1,5 +1,6 @@
 ---
 title: YOKOHAMA to GO
+top_image: /images/projects/ytg_top.png
 layout: post
 date: 2021-01-08
 description: 
