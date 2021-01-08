@@ -3,7 +3,7 @@
 
 title: Code for YOKOHAMA
 url: https://nichesuch.github.io/code4yokohama.github.io
-baseurl: /code4yokohama.github.io
+baseurl: 
 google_analytics_key: UA-59974413-3
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -158,4 +158,4 @@ _comments:
   blurb: Short bio or description of this person
 
 # ---- fixed github metadata authentication bug ----
-github : [metadata]
+# github : [metadata]
