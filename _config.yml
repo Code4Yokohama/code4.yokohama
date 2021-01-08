@@ -152,4 +152,4 @@ _comments:
 github : [metadata]
 
 exclude:
-  - _posts/2019-09-07-welcome-to-jekyll.markdown
+  - _posts/*-welcome-to-jekyll.markdown
