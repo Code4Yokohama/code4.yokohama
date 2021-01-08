@@ -7,7 +7,7 @@
 	text-align: center;
 	li {
         box-sizing: border-box;
-		width: 100%;
+        margin: 0 auto;
 
 		@media #{$tablet} {
 			@include flex(0, 1, 50%);
@@ -18,16 +18,9 @@
         }
         
         .card {
-            display: inline-block;
-            margin: 5px;
             padding: 30px 20px;
-            border-top: solid 1px #bbb;
     
             @media #{$tablet} {
-                margin: 10px;
-                padding: 30px 20px;
-                border: solid 1px #bbb;
-                border-radius: 8px;
             }
         }
 

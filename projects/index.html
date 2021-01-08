@@ -19,7 +19,11 @@ image: /images/bgimages/bg004.jpg
 		<ul class="projects">
 			{% for project in site.projects %}
 				<li><a href="{% include relative-src.html src=project.url %}">
-					<div class="card">{{ project.title }}</div></a></li>
+					<div class="card">
+						<div class="square-image" style="background-image: url({% include relative-src.html src=project.top_image %})"></div>
+						{{ project.title }}
+					</div>
+				</a></li>
 			{% endfor %}
 		</ul>
 	</div>

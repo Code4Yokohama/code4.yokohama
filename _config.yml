@@ -98,6 +98,8 @@ defaults:
       type: "projects"
     values:
       layout: "post"
+      top_image: "/images/logo/circlelogo.png"
+      image: "/images/bgimages/bg004.jpg"
       _options:
         image:
           width: 2000

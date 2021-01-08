@@ -1,5 +1,6 @@
 ---
 title:
+top_image:
 layout:
 date:
 description:
