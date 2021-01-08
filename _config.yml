@@ -2,12 +2,12 @@
 # Site
 
 title: Code for YOKOHAMA
-url: https://nichesuch.github.io/code4yokohama
+url: https://nichesuch.github.io
 baseurl: 
 google_analytics_key: UA-59974413-3
 google_maps_javascript_api_key:
 disqus_shortname:
-repository: nichesuch/code4yokohama
+repository: nichesuch/nichesuch.github.io
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
