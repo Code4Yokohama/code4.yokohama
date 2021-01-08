@@ -44,6 +44,7 @@ collections:
   staff_members:
     _hide_content: true
     _icon: account_circle
+  projects:
 
 paginate: 10
 paginate_path: "/blog/:num/"
@@ -90,6 +91,22 @@ defaults:
           width: 1500
           height: 2000
           uploads_dir: "/images/post_uploads"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+      _options:
+        image:
+          width: 2000
+          height: 1322
+          resize_style: cover
+          uploads_dir: "/images/project_uploads"
+        content:
+          width: 1500
+          height: 2000
+          uploads_dir: "/images/project_uploads"
   -
     scope:
       path: "contact-success.html"
