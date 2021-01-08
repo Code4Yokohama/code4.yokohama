@@ -1,6 +1,8 @@
 ---
 title: 技術駆動都市ヨコハマ2030
+top_image: 
 layout: post
+date: 2021-01-08
 image: /images/bgimages/bg004.jpg
 ---
 
