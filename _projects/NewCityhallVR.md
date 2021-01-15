@@ -1,6 +1,6 @@
 ---
 title: 横浜市新市庁舎VR
-top_image: /images/projects/
+top_image: /images/projects/chvr_top.jpg
 layout: post
 date: 2021-01-15
 description:
@@ -33,11 +33,14 @@ author_staff_member:
 ![](/images/projects/chvr_app.png)
 
 
-## 体験会の様子
+## 新市庁舎VR体験会の様子
+
+- ナレジックス株式会社における体験会
 ![](/images/projects/chvr_event_1.png)
 
 ![](/images/projects/chvr_event_2.png)
 
 ![](/images/projects/chvr_event_3.png)
 
+- 情報科学専門学校における体験会（2017-08-31）
 ![](/images/projects/chvr_event_isc.png)
