@@ -2,11 +2,12 @@
 # Site
 
 title: Code for YOKOHAMA
-url: "https://code4.yokohama/"
+url: "https://code4yokohama.github.io"
 baseurl:
 google_analytics_key: UA-59974413-3
 google_maps_javascript_api_key:
 disqus_shortname:
+repository: Code4Yokohama/code4yokohama.github.io
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -39,6 +40,14 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 collections:
   staff_members:
@@ -147,3 +156,6 @@ social_icons:
 _comments:
   description: Text shown when sharing on social media
   blurb: Short bio or description of this person
+
+# ---- fixed github metadata authentication bug ----
+# github : [metadata]

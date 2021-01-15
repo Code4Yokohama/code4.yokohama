@@ -1,7 +1,7 @@
 ---
-name: Iwao Kobayashi
+name: 小林　巌生
 image_path: /images/members/portlate.png
-position: Information Architect
+position: 代表/Information Architect
 twitter_url: https://twitter.com/iwao
 facebook_url: https://www.facebook.com/iwao111
 github_url: https://github.com/iwao

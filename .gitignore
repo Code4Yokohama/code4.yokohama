@@ -1,8 +1,7 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-.DS_Store
-
+.jekyll-cache
 
 # Created by https://www.toptal.com/developers/gitignore/api/emacs,macos,windows,linux,ruby
 # Edit at https://www.toptal.com/developers/gitignore?templates=emacs,macos,windows,linux,ruby
