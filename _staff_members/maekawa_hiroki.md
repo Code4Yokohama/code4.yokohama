@@ -1,5 +1,5 @@
 ---
-name: 前川 弘樹
+name: 前川　弘樹
 image_path: /images/members/hiroki.maekawa.png
 position: Chief Outdoor Officer, Chief Sake Officer
 facebook_url: https://www.facebook.com/niche.and.such
