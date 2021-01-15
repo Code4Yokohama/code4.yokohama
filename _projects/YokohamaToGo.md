@@ -9,7 +9,7 @@ image: /images/bgimages/yokohama_to_go.png
 author_staff_member:
 ---
 
-# YOKOHAMA To Go
+# YOKOHAMA to Go
 
 **-横浜市内の商店会との協力で実現、テイクアウト＆デリバリー情報サイト-**
 
