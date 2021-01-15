@@ -2,8 +2,8 @@
 # Site
 
 title: Code for YOKOHAMA
-url: https://code4yokohama.github.io/
-baseurl: https://code4yokohama.github.io/
+url: "https://code4yokohama.github.io/"
+baseurl: "https://code4yokohama.github.io/"
 google_analytics_key: UA-59974413-3
 google_maps_javascript_api_key:
 disqus_shortname:
