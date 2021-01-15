@@ -1,0 +1,30 @@
+---
+title: プロジェクト
+description: We are working on the following projects.
+image: /images/bgimages/bg004.jpg
+---
+
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Projects</h1>
+			<p class="subtext editable">We are working on the following projects.</p>
+		</div>
+	</div>
+</section>
+
+<section class="pad">
+	<div class="container">
+		<p class="editor-link"><a href="cloudcannon:collections/_projects" class="btn"><strong>&#9998;</strong> Manage Projects</a></p>
+		<ul class="projects">
+			{% for project in site.projects %}
+				<li><a href="{% include relative-src.html src=project.url %}">
+					<div class="card">
+						<div class="square-image" style="background-image: url({% include relative-src.html src=project.top_image %})"></div>
+						{{ project.title }}
+					</div>
+				</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

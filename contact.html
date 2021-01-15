@@ -2,11 +2,11 @@
 title: Contact
 description: Send us a message to find out more!
 map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  address: "1 George Street, Dunedin, New Zealand"
-  zoom: 13
-image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
+  latitude: 35.54635
+  longitude: 139.57419
+  address: "横浜市都筑区茅ケ崎中央47-7 センターステージビル2F<br>(インフォ・ラウンジ株式会社内)"
+  zoom: 10
+image: /images/bgimages/bg004.jpg
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
@@ -20,28 +20,27 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 
 <section class="pad">
 	<div class="text-container contact-box">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@cloudcannon.com">
+		<form action="https://formspree.io/xgepwwbn" method="post" class="contact-form">
 			<input type="text" name="_gotcha" style="display: none;">
 
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" placeholder="Enter your name...">
+			<label for="name">お名前</label>
+			<input type="text" name="name" id="name" placeholder="あなたのお名前を入力してください...">
 
-			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
+			<label for="email">メールアドレス</label>
+			<input type="email" name="email" id="email" placeholder="あなたのメールアドレスを入力して下さい..." required>
 
-			<label for="message">Message</label>
-			<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+			<label for="message">お問い合わせ内容</label>
+			<textarea name="message" id="message" placeholder="お問い合わせの内容を入力して下さい..."></textarea>
 
-			<input type="submit" value="Send Message">
+			<input type="submit" value="お問い合わせを送信する">
 		</form>
 
 		<div class="contact-details">
-			<h3>Address</h3>
+			<h3>事務局住所</h3>
 			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
-			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+			<h3>メールアドレス</h3>
+			<p class="editable"><a href="mailto:info@code4.yokohama">info@code4.yokohama</a></p>
 		</div>
 	</div>
 </section>

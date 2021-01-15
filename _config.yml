@@ -2,11 +2,12 @@
 # Site
 
 title: Code for YOKOHAMA
-url: "https://code4.yokohama/"
-baseurl:
-google_analytics_key:
+url: https://code4yokohama.github.io
+baseurl: 
+google_analytics_key: UA-59974413-3
 google_maps_javascript_api_key:
 disqus_shortname:
+repository: Code4Yokohama/code4yokohama.github.io
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -39,17 +40,35 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 collections:
   staff_members:
     _hide_content: true
     _icon: account_circle
+  projects:
+    output: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
 
 jekyll-archives:
-  enabled: ['categories']
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category_archive
+    tag: tag_archive
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 
 defaults:
   -
@@ -82,6 +101,24 @@ defaults:
           width: 1500
           height: 2000
           uploads_dir: "/images/post_uploads"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+      top_image: "/images/logo/circlelogo.png"
+      image: "/images/bgimages/bg004.jpg"
+      _options:
+        image:
+          width: 2000
+          height: 1322
+          resize_style: cover
+          uploads_dir: "/images/project_uploads"
+        content:
+          width: 1500
+          height: 2000
+          uploads_dir: "/images/project_uploads"
   -
     scope:
       path: "contact-success.html"
@@ -119,3 +156,6 @@ social_icons:
 _comments:
   description: Text shown when sharing on social media
   blurb: Short bio or description of this person
+
+# ---- fixed github metadata authentication bug ----
+# github : [metadata]
