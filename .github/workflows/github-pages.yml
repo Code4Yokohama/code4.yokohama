@@ -22,4 +22,4 @@ jobs:
           JEKYLL_DEBUG: true
         with:
           target_branch: 'gh-pages'
-          jekyll_build_options: -b /site -d build/site; echo -e "RewriteEngine on\nRewriteRule ^$ /site/ [R=301,L]" > build/.htaccess;
+          jekyll_build_options: -b /site -d build/site
