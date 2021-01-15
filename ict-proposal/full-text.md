@@ -1,14 +1,16 @@
 ---
 title: 技術駆動都市ヨコハマ2030
+top_image: 
 layout: post
-image: /images/bgimages/bg004.jpg
+date: 2021-01-08
+image: /images/ict-proposal/techcity-top.png
 ---
 
 # 技術駆動都市ヨコハマ2030
 
 **The tech driven city YOKOHAMA 2030**
 
-<p style="text-alig:right;">version: α1.1<br />
+<p style="text-align:right;">version: α1.1<br />
 published: 2017-07-15</p>
 
 

@@ -1,5 +1,5 @@
 ---
-name: 林 晃
+name: 林　晃
 image_path: /images/members/akira.hayashi.jpg
 position: Newbie
 twitter_url: https://twitter.com/Rindrics
