@@ -27,20 +27,20 @@ author_staff_member:
 ![](/images/projects/chvr_cad.png)
 
 - 開発環境
-![](/images/projects/chvr_dev.png)
+![](/images/projects/chvr_dev.jpg)
 
 - 完成した3Dモデル（新市庁舎内観）
-![](/images/projects/chvr_app.png)
+![](/images/projects/chvr_app.jpg)
 
 
 ## 新市庁舎VR体験会の様子
 
 - ナレジックス株式会社における体験会
-![](/images/projects/chvr_event_1.png)
+![](/images/projects/chvr_event_1.jpg)
 
-![](/images/projects/chvr_event_2.png)
+![](/images/projects/chvr_event_2.jpg)
 
-![](/images/projects/chvr_event_3.png)
+![](/images/projects/chvr_event_3.jpg)
 
 - 情報科学専門学校における体験会（2017-08-31）
 ![](/images/projects/chvr_event_isc.png)
