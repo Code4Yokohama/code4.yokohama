@@ -36,6 +36,9 @@
 		h1, h2, p, .button {
 			text-shadow: 1px 1px 1px rgba(0,0,0,.8);
 		}
+		@media #{$mobile} {
+			font-size: 0.8rem;
+		}
 	}
 
 	.hero-text-right {
@@ -74,9 +77,20 @@
 	}
 }
 
-
 @media #{$mobile} {
-	.hero {
-		padding: 100px 0 40px 0;
+	.main_logo {
+		display: none;
+	}
+}
+
+@media #{$tablet} {
+	.main_logo {
+		display: block;
+	}
+}
+
+@media #{$desktop} {
+	.main_logo {
+		display: block;
 	}
 }
