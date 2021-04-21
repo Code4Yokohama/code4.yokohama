@@ -7,4 +7,5 @@ twitter_url: https://twitter.com/niche_such
 github_url: https://github.com/nichesuch
 company: ピー・アイ・スクエア株式会社,Code for SAKE
 blurb: システムエンジニア,山奥の酒蔵はだいたい旨い
+type: core
 ---
