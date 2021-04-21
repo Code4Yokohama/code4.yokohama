@@ -35,12 +35,14 @@ author_staff_member:
 
 ## 新市庁舎VR体験会の様子
 
-- ナレジックス株式会社における体験会
+- 仮設北仲ブリックでの体験会
 ![](/images/projects/chvr_event_1.jpg)
 
+- YAMAGATA株式会社での体験会
 ![](/images/projects/chvr_event_2.jpg)
 
+- 泰生ポーチでの体験会
 ![](/images/projects/chvr_event_3.jpg)
 
-- 情報科学専門学校における体験会（2017-08-31）
+- 情報科学専門学校での体験会（2017-08-31）
 ![](/images/projects/chvr_event_isc.png)
