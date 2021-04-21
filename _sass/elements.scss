@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', 'Noto Sans Japanese', sans-serif;
 }
 
 a {
@@ -31,7 +31,7 @@ h1 strong, h2 strong {
 h1 {
 	font-weight: 300;
 	font-size: 3.4em;
-	margin: 0;
+	margin: 4rem 0 2rem 0;
 }
 
 h2 {
@@ -58,5 +58,5 @@ p, address, ul {
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.8em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans Japanese', sans-serif;
 }
