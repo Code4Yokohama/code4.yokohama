@@ -35,7 +35,7 @@ footer {
 
 		li {
 			list-style: none;
-			margin: 15px auto;
+			margin: 15px auto 0 auto;
 			display: inline-block;
 
 			a {
@@ -84,6 +84,11 @@ footer {
 				}
 			}
 		}
+	}
+	.footer-logo {
+		clear: both;
+		padding: 60px 0;
+		text-align: center;
 	}
 }
 
