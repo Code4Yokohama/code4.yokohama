@@ -28,4 +28,18 @@
 		color: #666;
 		font-size: .8em;
 	}
+	.blurb {
+		color: #333;
+		font-size: .7em;
+	}
+	.social a {
+		text-decoration: none;
+		svg {
+			fill: #00a4ca;
+		}
+		svg:hover {
+			fill: #0283a0;				
+		}
+
+	}
 }
