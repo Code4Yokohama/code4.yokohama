@@ -3,6 +3,7 @@ title: よこはまYYラボとの交流会
 top_image: /images/projects/yylab_top.jpg
 layout: post
 date: 2020-07-30
+sort_value: 00200
 description: 
 categories:
 image: 

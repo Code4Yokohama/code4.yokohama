@@ -3,6 +3,7 @@ title: 里山ガーデン映像コンテスト
 top_image: /images/projects/satoyama_top.png
 layout: post
 date: 2020-05-03
+sort_value: 00300
 description: 自然環境を育む横浜市の取組「ガーデンネックレス横浜」をテーマとした、プロモーション映像コンテスト企画
 categories:
 image: /images/bgimages/satoyama.jpg

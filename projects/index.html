@@ -17,7 +17,8 @@ image: /images/bgimages/bg004.jpg
 	<div class="container">
 		<p class="editor-link"><a href="cloudcannon:collections/_projects" class="btn"><strong>&#9998;</strong> Manage Projects</a></p>
 		<ul class="projects">
-			{% for project in site.projects %}
+            {% assign sorted_prj_list = site.projects | sort:"sort_value" %}
+			{% for project in sorted_prj_list %}
 				<li><a href="{% include relative-src.html src=project.url %}">
 					<div class="card">
 						<div class="square-image" style="background-image: url({% include relative-src.html src=project.top_image %})"></div>
