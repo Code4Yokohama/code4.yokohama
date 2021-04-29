@@ -74,3 +74,8 @@ Frisco is already optimised for adding, updating and removing pages, staff, advi
 
 * Exposed as a data file to give clients better access.
 * Set in the *Data* / *Footer* section.
+
+## プロジェクトページの追加
+
+- 既存の.mdファイルを参考に作成する。（ファイル名の先頭は数字以外）
+- 並び順（sort_value）は原則5桁固定で3桁目を増やして行く。表示は昇順となる。　例）00000, 00100, 00200
