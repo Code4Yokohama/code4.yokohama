@@ -3,7 +3,7 @@ title: YOKOHAMA to GO
 top_image: /images/projects/ytg_top.png
 layout: post
 date: 2021-01-08
-sort_value: 00100
+sort_value: c00100
 description: 
 categories:
 image: /images/bgimages/yokohama_to_go.png

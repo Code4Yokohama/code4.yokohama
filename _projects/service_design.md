@@ -3,7 +3,7 @@ title: サービスデザイン勉強会
 top_image: /images/projects/service_design.jpg
 layout: post
 date: 2021-04-29
-sort_value: 00800
+sort_value: c00800
 description: 行政サービスに「サービスデザイン」の考え方を応用していくための勉強会。
 categories:
 image: /images/projects/service_design.jpg
