@@ -129,7 +129,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      image:
+      image: "/images/default_ogp.png"
         width: 2000
         height: 1322
         resize_style: cover
