@@ -3,6 +3,7 @@ title: MINATO MIRAI 21 Activation Program にエントリした企画を公開�
 top_image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Amman_3D_Model.jpg/640px-Amman_3D_Model.jpg
 layout: post
 date: 2021-04-21
+sort_value: 00700
 image: /images/bgimages/Amman_3D_Model.jpg
 ---
 
