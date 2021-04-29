@@ -3,7 +3,7 @@ title: 技術駆動都市ヨコハマ2030
 top_image: /images/ict-proposal/techcity-top.png
 layout: post
 date: 2021-01-15
-sort_value: 00500
+sort_value: c00500
 image: /images/ict-proposal/techcity-top.png
 ---
 
