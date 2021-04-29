@@ -1,11 +1,12 @@
 ---
 title: Code for YOKOHAMA
 description: Technology for Social Innovation. Code for YOKOHAMAは仲間とともに技術を磨き、学んだスキルを地域の課題解決に役立てていく活動です。横浜から価値あるソリューションを世界へ。あなたもこの活動に参加しませんか？
-image: /images/bgimages/bg004.jpg
+image: /images/logo/main_logo.svg
+top_image: /images/bgimages/bg004.jpg
 bottom_image: /images/bgimages/bg003.jpg
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero" style="background-image: url({% if page.top_image %}{% include relative-src.html src=page.top_image %}{% else %}{% include relative-src.html src=page.image %}{% endif %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<div class="main_logo" style="text-align: center; margin-bottom:50px;">
