@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero" style="background-image: url({% if page.top_image %}{% include relative-src.html src=page.top_image %}{% else %}{% include relative-src.html src=page.image %}{% endif %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1>{{ page.title }}</h1>
