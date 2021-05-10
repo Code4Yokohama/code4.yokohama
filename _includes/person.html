@@ -1,0 +1,25 @@
+<div>
+    <div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+    <div class="name">
+        {{ person.name }}
+    </div>
+    <div class="social">
+        {% if person.twitter_url != null %}
+            <a target="_blank" href="{% include relative-src.html src=person.twitter_url %}" class="twitter-icon">
+                {% include social-icon.html icon='Twitter' %}
+            </a>
+        {% endif %}
+        {% if person.facebook_url != null %}
+            <a target="_blank" href="{% include relative-src.html src=person.facebook_url %}" class="facebook-icon">
+                {% include social-icon.html icon='Facebook' %}
+            </a>
+        {% endif %}
+        {% if person.github_url != null %}
+            <a target="_blank" href="{% include relative-src.html src=person.github_url %}" class="github-icon">
+                {% include social-icon.html icon='GitHub' %}
+            </a>
+        {% endif %}
+    </div>
+    <div class="position">{{ person.position }}</div>
+    <div class="blurb">{{ person.blurb }}</div>
+</div>

@@ -3,6 +3,7 @@ title: 横浜市新市庁舎VR
 top_image: /images/projects/chvr_top.jpg
 layout: post
 date: 2021-01-15
+sort_value: c00600
 description:
 categories:
 image: /images/bgimages/new_city_hall_vr.jpg

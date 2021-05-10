@@ -3,6 +3,7 @@ title: GitHub勉強会
 top_image: /images/projects/ghho_top.png
 layout: post
 date: 2020-06-06
+sort_value: c00400
 description: Code for YOKOHAMA主催 初心者向けGitHub勉強会を完全オンライン形式で開催！30名近くの多様な参加者が、プルリクエストまで挑戦！
 categories:
 image: 
