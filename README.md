@@ -46,6 +46,45 @@ Run `jekyll` commands through Bundler to ensure you're using the right versions:
 $ bundle exec jekyll serve
 ~~~
 
+### 動かない場合
+
+上の'Develop'記載の操作手順で動作しない場合、Rubyのバージョンを確認すると良いかも。
+いちおう、3.0.0で動作確認できている。
+
+rubyのバージョンを確認するにはこうする。
+
+~~~bash
+// ruby のバージョンを確認
+$ ruby -v
+ruby 2.6.3p62 (2019-04-16 revision 67580) [universal.arm64e-darwin20]
+~~~
+
+rbenv を使えば、ディレクトリごとに使用するrubyのバージョンを指定できる。
+
+Macなら概ね以下の流れ。
+1. brewでrbenvをインストール
+2. pathを通す（zsh と bashだとやり方違うので注意）
+3. 必要なrubyのバージョンを指定してインストール
+4. ディレクトリでrubyのバージョンを指定
+5. 以下、bundle install〜
+
+~~~bash
+// rbenvはインストールできている前提でそれ以降の操作はこんな感じ
+// インストール可能なRubyのバージョン一覧の表示
+$ rbenv install -l
+// 指定したRubyのバージョンをインストール
+$ rbenv install 3.0.0
+// インストールしたRubyを使用可能な状態にする⇒shimsへの反映
+$ rbenv rehash
+// カレントディレクトリで使うRubyのバージョンを指定
+$ rbenv local 3.0.0
+// 再度バージョンを確認
+$ ruby -v
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [arm64-darwin20]
+~~~
+
+参考：[https://github.com/rbenv/rbenv#understanding-shims](https://github.com/rbenv/rbenv#understanding-shims)
+
 ## Editing
 
 Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
