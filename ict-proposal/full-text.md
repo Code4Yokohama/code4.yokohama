@@ -11,7 +11,7 @@ image: /images/ict-proposal/techcity-top.png
 **The tech driven city YOKOHAMA 2030**
 
 <p style="text-align:right;">version: 2.0<br />
-published: 2021-08-04</p>
+published: 2021-08-08</p>
 
 ## はじめに
 **「果なく栄えて行くらんみ代を　飾る宝も入りくる港」**
@@ -338,7 +338,7 @@ GIGAスクールによるスマート教育の推進によって、デジタル�
 - [横浜市職員からのお悩み相談会を不定期開催](https://code4.yokohama/meeting/activities/2020/07/30/post/)
 - [「里山ガーデンプロモーション映像コンテスト」の企画・運営](https://code4.yokohama/projects/satoyama/)
 - [新型コロナ禍に立ち向かうテイクアウト＆デリバリー情報サイト"YOKOHAMA to GO"を地域の商店会と協力して実現](https://code4.yokohama/projects/YokohamaToGo/)
-- ["MM21 Inovation Program"への企画提案](https://code4.yokohama/projects/YokohamaToGo/)
+- ["MM21 Inovation Program"への企画提案](https://code4.yokohama/projects/MM21_Activation%20Program/)
 - [横浜FC、Code　for　Japanと「サッカー×テクノロジー」アイデアソンを共催](https://jp.techcrunch.com/2021/06/10/2021-09-10-code-for-japan-yokohama-fc-ideathon/)
 - 認定NPO法人地球学校および情報科学専門学校とのコラボレーション
 - デジタルテクノロジー勉強会を不定期開催([GitHub勉強会](https://code4.yokohama/projects/GitHubHandsOn/)、3Dツール勉強会等)
