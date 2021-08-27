@@ -42,5 +42,5 @@ Code for YOKOHAMAのメンバーを中心に、有志でまとめて2017年7月�
 ## version1.0（2017.7.15公開）について
 2017年7月に横浜市長選挙が開催されることを受け、行政運営におけるテクノロジー活用の新たなパラダイムを横浜から発信すべく、新たな横浜市長に向けて横浜市のICT政策についてCode for YOKOHAMAのメンバーを中心に有志でまとめた提言を公開しました。
 
-* [version 1.0(提言書(PDFファイル))](/ict-proposal/ICT_Proposal_cover20170721.pdf)
+* [version 1.0(提言書(PDFファイル))](/ict-proposal/ICT_Proposal_fulltext_v1.pdf)
 * 横浜市長選候補者に提言を渡しました。[写真や経緯など詳細をご覧ください。(2017年8月1日)](/ict-proposal/report)
