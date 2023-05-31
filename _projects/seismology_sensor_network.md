@@ -4,7 +4,7 @@ top_image: /images/projects/csn/csn_sensor_01.png
 layout: post
 date: 2021-09-15
 sort_value: c00800
-description:小型の地震動計測センサーを作成し、横浜市内の高密度センサーネットワークを構築する市民のための市民参加型プロジェクト
+description: 小型の地震動計測センサーを作成し、横浜市内の高密度センサーネットワークを構築する市民のための市民参加型プロジェクト
 categories:
 image: 
 author_staff_member:
