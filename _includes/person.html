@@ -19,6 +19,11 @@
                 {% include social-icon.html icon='GitHub' %}
             </a>
         {% endif %}
+        {% if person.blog_url != null %}
+            <a target="_blank" href="{% include relative-src.html src=person.blog_url %}" class="blog-icon" aria-label="ブログ">
+                {% include social-icon.html icon='Website' %}
+            </a>
+        {% endif %}
     </div>
     <div class="position">{{ person.position }}</div>
     <div class="blurb">{{ person.blurb }}</div>
